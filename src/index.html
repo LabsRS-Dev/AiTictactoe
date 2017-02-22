@@ -2,20 +2,30 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Tic-Tac-Toe</title>
+	<title>AiTictactoe</title>
 	<link href="css/main.css" type="text/css" rel="stylesheet" />
-	<script src="js/jquery-1.9.1.js"></script> 
-	<script src="js/play.js"></script> 
-	<script src="js/main.js"></script> 
+	<script src="js/jquery-1.9.1.js"></script>
+	<!-- 加入SDK -->
+	<script src="sdk/util.js"></script>
+	<script src="sdk/bs.js"></script>
+
+	<!--  引入Anime.js-->
+	<script src="js/anime.min.js"></script>
+
+	<script src="js/play.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body onresize="initDiv()">
+<canvas class="fireworks"></canvas>
 <div id="main" class="main">
 	<table width="600" height="600" border="3" cellspacing="0" cellpadding="0">
 		<tr><td id="td_1" onclick="chessGo(1)">1</td><td id="td_2" onclick="chessGo(2)">2</td><td id="td_3" onclick="chessGo(3)">3</td></tr>
 		<tr><td id="td_4" onclick="chessGo(4)">4</td><td id="td_5" onclick="chessGo(5)">5</td><td id="td_6" onclick="chessGo(6)">6</td></tr>
 		<tr><td id="td_7" onclick="chessGo(7)">7</td><td id="td_8" onclick="chessGo(8)">8</td><td id="td_9" onclick="chessGo(9)">9</td></tr>
 	</table>
-	<div id="text" class="test">Tic-Tac-Toe</div>
+	<div id="text" class="test">AiTictactoe</div>
+
 </div>
+<script src="js/anime_setup.js"></script>
 </body>
 </html>

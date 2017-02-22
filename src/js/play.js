@@ -16,11 +16,11 @@ play.chessGo=function(position){
 		var flag=this.checkMap(map);
 		if(flag!=2){
 			if(flag==1){
-				document.getElementById("text").innerHTML="You win";
+				document.getElementById("text").innerHTML="You win !!!!";
 			}else if(flag==-1){
-				document.getElementById("text").innerHTML="You lost";
+				document.getElementById("text").innerHTML="You lost !!!!";
 			}else{
-				document.getElementById("text").innerHTML="The draw";
+				document.getElementById("text").innerHTML="The draw !!!!";
 			}
 			this.mark=true;
 			return ;
@@ -32,11 +32,11 @@ play.chessGo=function(position){
 			flag=this.checkMap(map);
 			if(flag!=2){
 				if(flag==1){
-					document.getElementById("text").innerHTML="You win";
+					document.getElementById("text").innerHTML="You win !!!!";
 				}else if(flag==-1){
-					document.getElementById("text").innerHTML="You lost";
+					document.getElementById("text").innerHTML="You lost !!!!";
 				}else{
-					document.getElementById("text").innerHTML="The draw";
+					document.getElementById("text").innerHTML="The draw !!!!";
 				}
 				this.mark=true;
 				return ;
@@ -150,5 +150,5 @@ play.clearMap=function(){
 		this.map[i]=0;
 		document.getElementById("td_"+i).innerHTML="";
 	}
-	document.getElementById("text").innerHTML="Tic-Tac-Toe,Your Turn";
+	document.getElementById("text").innerHTML="AiTictactoe, Your Turn!";
 }
