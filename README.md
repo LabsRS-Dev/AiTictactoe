@@ -31,4 +31,7 @@ AiTictactoe 井字棋
 
 ------------
 
+https://romanysoft.github.io/apps/store/AiTictactoe
+
+![](https://romanysoft.github.io/apps/store/AiTictactoe/images/screen/c0.jpg)
 
