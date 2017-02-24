@@ -1,6 +1,5 @@
 # AiTictactoe
-AiTictactoe 井字棋
-
+AiTictactoe 命令文档助手
 ------------
 
 
@@ -31,7 +30,6 @@ AiTictactoe 井字棋
 
 ------------
 
-https://romanysoft.github.io/apps/store/AiTictactoe
 
-![](https://romanysoft.github.io/apps/store/AiTictactoe/images/screen/c0.jpg)
+![](https://github.com/LabsRS-Dev/AiTictactoe/raw/master/doc/imgs/doc.jpg)
 
