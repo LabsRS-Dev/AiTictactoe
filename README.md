@@ -33,3 +33,5 @@ AiTictactoe 命令文档助手
 
 ![](https://github.com/LabsRS-Dev/AiTictactoe/raw/master/doc/imgs/doc.jpg)
 
+https://www.macupdate.com/app/mac/40201/dash
+
